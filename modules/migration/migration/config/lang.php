@@ -1,0 +1,95 @@
+<?php
+
+$config['title'] = "Migraciones";
+$config['txt1'] = "Usted no puede hacer esto!";
+$config['txt2'] = "Imposible cancelar su solicitud!";
+$config['txt3'] = "Su solicitud fue cancelada correctamente" ;
+$config['txt4'] = "Acceso Restringido";
+$config['txt5'] = "Fue atendido por otro GM";
+$config['txt6'] = "La solicitud fue rechazada correctamente";
+$config['txt7'] = "El reino debe estar OnLine";
+$config['txt8'] = "La solicitud fue aceptada correctamente";
+$config['txt9'] = "El personaje no existe";
+$config['txt10'] = "Lo siento esta persona ya habia recibido los items" ;
+$config['txt11'] = "No se pueden re-enviar items aun!" ;
+$config['txt12'] = "Los items fueron re-enviados" ;
+$config['txt13'] = "Fallo la peticion, presiona otra vez siguiente o comienza el procedimiento desde cero" ;
+$config['txt14'] = "No se puede procesar debido a que en la cuenta destino ya tienen un DK" ;
+$config['txt15'] = 'El archivo que tratas de enviar no es válido, recuerda que debes enviar el archivo generado por nuestro AddOn llamado "IW_MigradorXXXX.lua"' ;
+$config['txt16'] = "El personaje que intentas migrar ya habia sido rechazado, aceptado o esta pendiente en revision." ;
+$config['txt17'] = "Erro: El servidor del que deseas migrar esta en nuestra lista negra lo sentimos mucho." ;
+$config['txt18'] = "Asegurate que el reino selecinado sea la misma version o superior al reino del que viene tu personaje. " ;
+$config['txt19'] = "Este personaje no es válido para ser migrado, no cumple con el tiempo de juego mínimo requerido." ;
+$config['txt20'] = "No puedes migrar un DK, en esta cuenta ya tienes uno." ;
+$config['txt21'] = "Informacion básica de tu personaje";
+$config['txt22'] = "Nombre:" ;
+$config['txt23'] = "Clase:" ;
+$config['txt24'] = "Raza:" ;
+$config['txt25'] = "Nivel:" ;
+$config['txt26'] = "Logros:" ;
+$config['txt27'] = "Monturas:" ;
+$config['txt28'] = "Compañeros:" ;
+$config['txt29'] = "Money:";
+$config['txt30'] = "Puntos de Valor:" ;
+$config['txt31'] = "Puntos de Honor:" ;
+$config['txt32'] = "Puntos de Arena:" ;
+$config['txt33'] = "Puntos de Justicia:" ;
+$config['txt34'] = "Reputacion" ;
+$config['txt35'] = "Items que vas a recibir" ;
+$config['txt36'] = "Esta cuenta ya tiene el numero maximo de personajes." ;
+$config['txt37'] = "Debes completar correctamente los datos de sesión de tu cuenta en tu servidor de origen antes de proceder con la migración";
+$config['txt38'] = "Selecciona un reino valido como destino antes de proceder con la migración";
+$config['txt39'] = 'El archivo que tratas de enviar no es válido, recuerda que debes enviar el archivo generado por nuestro AddOn llamado "IW_MigradorXXXX.lua"';
+
+
+$config['utxt100'] = "Información y elección de versión de origen";
+$config['utxt101'] = "Descarga de addon y recopilación de datos";
+$config['utxt102'] = "Comprobación de datos y confirmación";
+$config['utxt103'] = "Entrega de personaje en tu cuenta";
+$config['utxt104'] = "Bienvenid@ a nuestro sistema de migraciones, con este sistema podrás copiar tus personajes de otros servidores en los que has jugado de forma totalmente automática, instatánea y gratuíta. De esta manera tendrás tus personajes de otros servidores en InfernalWoW en cuestión de minutos sin perder ningún tipo de progreso u objeto.";
+$config['utxt105'] = "Multiversión y multiexpansión";
+$config['utxt106'] = "Tu servidor de origen deberá ser de tipo blizzlike (sin incluir modificaciónes ni customizaciónes) con rates inferiores a x10, las versiónes aceptadas por ahora son WotLK (3.3.5a), Cataclysm (4.0.6a) y Cataclysm (4.3.4). El servidor deberá estar presente en nuestra lista blanca para realizar la migración, en el caso de no ser un servidor aceptado y cumple totalmente nuestros requisitos, podrás proponernos su adicción en nuestro foro de Sugerencias";
+$config['utxt107'] = "Automático e instantáneo";
+$config['utxt108'] = "El proceso de migración se realizará de forma automática e instantánea en el caso de cumplir los requisitos, sin embargo, se realizará una verificación en 2º plano para verificar que la migración es légitima, por lo que tu cuenta en el servidor de origen deberá estar accesible en el momento de la migración y tu personaje tal y como estaba cuando la realizaste, recibirás un aviso en tu correo electrónico cuando la verificación haya sido efectuada.";
+$config['utxt109'] = "Datos seguros";
+$config['utxt110'] = "Tus datos de sesión en el servidor de origen y tus personajes se mantendrán cifrados en nuestro sistema y sólo los miembros de alto cargo en el staff tendrán acceso a ellos con el fín de validar tu migración. Tu cuenta y tus personajes del servidor de origen permanecerán intactos, sin ser modificados, borrados o realizada otra actividad que no sea la validación de tu personaje migrado";
+$config['utxt111'] = "Sin perder tu cuenta ni personajes";
+$config['utxt112'] = "Para asegurarte que la cuenta en el servidor de origen no volverá a ser accedida por nuestro equipo, puedes poner una password temporal al momento de realizar la migración y luego volver a cambiarla de nuevo cuando recibas la notificación de que la migración ha sido verificada, este paso nos gustaría que lo realizaseis por si existe un futuro problema poder aseguraros que nuestro equipo no ha tenido nada que ver, InfernalWoW no responderá ante acciones no provocadas por nuestro equipo.";
+$config['utxt113'] = "1. Descarga e instalación del AddOn";
+$config['utxt114'] = "Descarga nuestro AddOn de recolección de datos haciendo click en el siguiente botón";
+$config['utxt115'] = "Descargar AddOn";
+$config['utxt116'] = 'Descomprime nuestro AddOn en tu carpeta de World of Warcraft en la ruta "/WoW/Interface/AddOns/" asegurate que la carpeta extraída contiene archivos y no una carpeta con el mismo nombre.';
+$config['utxt117'] = "2. Recolectando datos en tu servidor de origen";
+$config['utxt118'] = "Accede a tu servidor de origen con su correspondiente realmlist y tus datos de login y entra al mundo con el personaje que deseas migrar. Una vez dentro, con el fin de mantener limpias nuestras bases de datos y asegurar que la migración se procesará con exito, elimina todos los items innecesarios y saca del banco todos que deseas traer a InfernalWoW guardandolos en tu bolsa e inventario (Solo se migrarán los objetos que contenga tu personaje, excluyendo banco, correos, banco de hermandad, depósito del vacio etc...)
+<p>Despues de mover a tu inventario todos los items que deseas migrar, escribe en el chat /migrar y espera a que nuestro migrador te confirme que la recolección de datos ha sido completada.";
+$config['utxt119'] = "3. Envíanos tus datos";
+$config['utxt120'] = "Cedenos temporalmente tus datos de sesión en tu antiguo servidor con el fín de comprobar que la migración es legítima, los datos deben ser reales y la cuenta debe ser accesible, ya que si nuestro equipo no logra acceder a la cuenta de origen, tu cuenta de InfernalWoW será baneada por intento de estafa." ;
+$config['utxt121'] = "Nombre del Usuario:";
+$config['utxt122'] = "Contraseña:";
+$config['utxt123'] = 'Selecciona uno de nuestros reinos es donde estara tu personaje (si tu migración concluye). Adjunta el archivo generado por nuestro AddOn, que lo encontrarás en la carpeta "/WoW/WTF/Account/[Tu username en el otro servidor]/SavedVariables/" llamado "IW_MigradorXXXX.lua" siendo XXXX la versión de la que procedes.';
+$config['utxt124'] = "Seleccion de Reino";
+$config['utxt125'] = "Comprobando archivo de migración por favor espera con paciencia...";
+$config['utxt126'] = "¡Ocurrio un error, vuelve a intentarlo más tarde! Si el problema continua contacta a un GM";
+$config['utxt127'] = "Anterior";
+$config['utxt128'] = "Siguiente";
+$config['utxt129'] = "Leea con atencion: Acontinuacion se muestra un resumen de lo que será su personaje en nuestro servidor. El nombre de su personaje puede no estar disponible, en tal caso tendra la opcion de elegir uno nuevo. Es importante que usted sepa tambien que no recibira las mejoras que tenga en sus items (gemas, encantamientos, etc..).";
+$config['utxt130'] = "Tan prnto como un GM haga la revision final, usted tendra el personaje en su cuenta.";
+$config['utxt131'] = "STATUS: Pendiente";
+$config['utxt132'] = "Ver el estado de mis migraciones";
+$config['utxt133'] = "Debes iniciar session para continuar";
+$config['utxt134'] = "Nombre de Personaje";
+$config['utxt135'] = "Reino";
+$config['utxt136'] = "Estado";
+$config['utxt137'] = "Opciones";
+$config['utxt138'] = "En Revision";
+$config['utxt139'] = "Aprobado por un Gm";
+$config['utxt140'] = "Cancelado por el Jugador";
+$config['utxt141'] = "Rechazada";
+$config['utxt142'] = "Error: Realiza el procedimiento de nuevo";
+$config['utxt143'] = "Cancelar";
+$config['utxt144'] = "Si esta de acuerdo con lo que va a recibir, presione el boton";
+$config['utxt145'] = "Tenga en cuenta que perdera el personaje en su anterior servidor.";
+
+
+/* No change here */
+$config['force_code_editor'] = true;
